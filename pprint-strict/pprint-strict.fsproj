@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>pprint_strict</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="PPrint\Strict.fs" />
+    <None Include="TestHang.fsx" />
+  </ItemGroup>
+
+  <ItemGroup />
+
+</Project>
